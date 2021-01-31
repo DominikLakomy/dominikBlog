@@ -57,7 +57,7 @@
     width: 40px;
     height: 35px;
     border: 0;
-    border-top: 5px solid black;
+    border-top: 5px solid #ccc;
     background: transparent;
     position: relative;
     outline: none;
@@ -73,7 +73,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    border-top: 5px solid black;
+    border-top: 5px solid #ccc;
     transform: translateY(10px);
 }
 .hamburger::after {
