@@ -8,11 +8,12 @@
 }
 @media(max-width: 1199px) {
     .navigationMenu{ 
-        height: 100vh;
+        height: 50vh;
         opacity: 0;
         pointer-events: none;
         transition: 0.5s;
         transition-property: opacity;
+        background: white;
     }
     .navigationMenu--open {
         opacity: 1;
@@ -23,7 +24,7 @@
     .navigationInner{
         display: flex;
         justify-content: center;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 1.9;
         text-align: center;
         margin-top: 3em;
@@ -53,7 +54,6 @@
 }
 .hamburger {
     display: none;
-    margin: 1em 1em 1em auto;
     width: 40px;
     height: 35px;
     border: 0;
@@ -62,6 +62,10 @@
     position: relative;
     outline: none;
     transition: 0.3s transform linear;
+    position: fixed;
+    left: auto;
+    top: 1em;
+    right: 1em;
 }
 .hamburger::after, .hamburger::before {
     content:'';
