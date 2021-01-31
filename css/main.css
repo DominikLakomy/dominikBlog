@@ -15,3 +15,9 @@ body {
     background-color: var(--generalPageColor);
     color: white;
 }
+b {
+    color: var(--generalPageColor);
+}
+i {
+    color: var(--generalPageColor);
+}
