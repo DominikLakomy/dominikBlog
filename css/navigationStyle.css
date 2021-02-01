@@ -5,8 +5,8 @@
     right: 0;
     z-index: 0;
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.08); 
-    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.08);
+    -webikt-box-shadow: var(--generalPageShadow);
+    box-shadow: var(--generalPageShadow);
 }
 @media(max-width: 1199px) {
     .navigationMenu{ 

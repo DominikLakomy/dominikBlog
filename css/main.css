@@ -1,23 +1,39 @@
-*, 
+*,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 0; 
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
+
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffc200;
+    background-image: linear-gradient(43deg, #ffc200 0%, #ffa000 46%, #ff0000 100%);    
+    border-radius: 50px;
+}
+
 :root {
-    --generalPageColor: rgb(255, 60, 0);
+  --generalPageColor: rgb(255, 60, 0);
+  --generalPageShadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.08);
 }
 ::selection {
-    background-color: var(--generalPageColor);
-    color: white;
+  background-color: var(--generalPageColor);
+  color: white;
 }
 b {
-    color: var(--generalPageColor);
+  color: var(--generalPageColor);
 }
 i {
-    color: var(--generalPageColor);
+  color: var(--generalPageColor);
 }
