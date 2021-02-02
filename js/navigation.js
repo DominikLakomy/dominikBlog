@@ -4,6 +4,7 @@
 
     const toggleClass = () => {
         menu.classList.toggle("navigationMenu--open");
+        button.classList.toggle("js-hamburger--open");
     };
 
     button.addEventListener("click", toggleClass);
